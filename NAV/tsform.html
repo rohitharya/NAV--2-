@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="tsform.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    
+
+</head>
+
+
+<body>
+
+    <nav>
+        <a class="logo" href="#">Home Tutor</a>
+        <ul class="nav-bar">
+          <li class="nav-bar_item"><a href="home.html">Home</a></li>
+          <li class="nav-bar_item"><a href="teacher.html">Find A Tutor</a></li>
+          <li class="nav-bar_item">
+            <a href="tsform.html">Become A Tutor</a>  
+          </li>
+          <li class="nav-bar_item"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+
+
+    <div class="formbody">
+
+    <div class="container">
+        <h2>TUTOR REGISTRATION FORM</h2>
+
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="gender" placeholder="Gender: M/F/O" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="mob" placeholder="Your mobile number" />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="quali" placeholder="Qualification">
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="lang" placeholder="Languages Known" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="sub" placeholder="Subjects You teach" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="exp" placeholder="Experience" />
+            </div>
+
+            
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./tsform.js"></script>
+</body>
+
+</html> 
